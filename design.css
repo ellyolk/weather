@@ -1,0 +1,55 @@
+
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+}
+h1 {
+
+    color:#7c7c7c;
+    font-size:24px;
+    line-height:28px;
+    
+}
+body {
+  background: #f2f2f2;
+  font-family: arial, sans-serif;
+}
+.fas .fa-share-alt {
+    color: black;
+    text-align: center;
+}
+.fas .fa {
+  text-align: center;
+  size: 50px;
+}
+
+.search {
+  width: 100%;
+  
+  
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.wrap{
+  width: 40%;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
